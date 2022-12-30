@@ -1,2 +1,3 @@
 tsla gazua
 drv gazua
+nvda gazua
