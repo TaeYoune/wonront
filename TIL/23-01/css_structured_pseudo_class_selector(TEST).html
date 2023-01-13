@@ -1,0 +1,45 @@
+<!-- 구조 가상 클래스 셀렉터 -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      p:first-child {
+        color: red;
+      }
+      p:last-child {
+        color: blue;
+      }
+      p:nth-child(2) {
+        color: green;
+      }
+      p:nth-last-child(3) {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>원태연</h1>
+      <h2>포트폴리오</h2>
+      <div>
+        <p>TSLA</p>
+        <p><span>경두형이 추천해준</span>DRV</p>
+        <p>뇌농매매하지말자</p>
+        <p>세세한 부분은 신경도 쓰지 말도록!</p>
+        <p>TSM</p>
+        <p>AAPL</p>
+      </div>
+      <div>
+        <h2>first-child/last-child가 여기는 왜 안될까요?</h2>
+        <p>위에는 p태그가 아니여서요</p>
+        <p><span>경두형이 추천해준</span>SPY</p>
+        <p>장기투자하자</p>
+        <p>뇌동매매하지말자</p>
+        <p>NVDA</p>
+        <p>리튬은앨버말</p>
+        <h2>first-child/last-child가 여기는 왜 안될까요?</h2>
+      </div>
+    </div>
+  </body>
+</html>
