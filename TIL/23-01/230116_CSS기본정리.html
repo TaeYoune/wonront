@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS기본정리</title>
+</head>
+<body>
+    <header>
+        <a href="https://tylog.tistory.com" title="태연로그-티스토리">
+            <img src="image/태연로그냥_원본.png" alt="위의 이미지를 누르면 태연로그 티스토리로 이동합니다." width="100">
+        </a>
+    
+    </header>
+    <main>
+    <div id="CSS?"> 
+        <h1>1. CSS란?</h1>
+        <p>
+        - CSS(Cascading Style Sheets)<br>
+        - HTML 로 구조화된 문서를 어떻게 브라우저 상에 렌더링할지 표현 방법을 정의하기 위한 언어
+        <pre>
+        • HTML 은 구조화에 집중하고 (Semantic Web 태그 기반, 의미 표현 + 기본 HTML 태그로 구조 표현)
+        • CSS를 통해 화면 렌더링 표현 방법을 정의함
+        • javascript 로 사용자 인터페이스등을 정의함
+        </pre>
+        </p>
+    </div>
+    <br>
+    <div id="Selector?"> 
+        <h1>2. Selector(CSS Selector)</h1>
+        <p>
+            - HTML 문서의 특정 부분에 대해 렌더링 방법을 정의하기 위해서는 특정 부분을 선택할 수 있어야 함<br>
+            - CSS Selector 는 이런 특정 부분을 선택하기 위한 문법<br>
+            - CSS Selector 로 HTML 문서 특정 부분을 정의한 구문을 Rule Set 이라고 부르며, 이와 같은 'Rule Set'을 'Style Sheet' 라고 부름<br>
+            - property(속성)과 각 property별 설정 가능한 value(값)는 미리 정의되어 있음
+        </p>
+    </div>
+    <br>
+    <div id="HTML&CSS-link?"> 
+        <h1>3. HTML과 CSS의 연동방법</h1>
+        <p>
+            1) 적용할 태그에 style 속성으로 넣기 -&gt; 가급적 사용하지 않는게 좋음<br>
+            <br>
+            <img src="image/1_적용할_태그에_style_속성으로넣기.png" alt="적용태그에style속성으로넣기" width="400">
+        </p>
+        <p>
+            2) HTML &lt;head&gt; 안에 &lt;style&gt; 태그로 넣기<br>
+            <br>
+            <img src="image/2_HTML_<head> 안에_<style>_태그로넣기.png" alt="<head>안에<style>태그로넣기" width="400">
+        </p>
+        <p>
+            3) HTML &lt;head&gt; 안에 CSS파일로 링크하기 -&gt; 이 방법을 가장 많이 사욤함(중요)<br>
+            <br>
+            <img src="image/3_<head>안에_CSS파일링크하기.png" alt="CSS파일링크하기" width="400">
+        </p>
+    </div>
+    <div id="ResetCSS?"> 
+        <h1>4. Reset CSS(CSS 초기화설정)</h1>
+        <p>
+            - 웹브라우저마다 각기 다른 default 스타일이 지정되어 있으므로, 이를 초기화하여, 다양한 웹브라우저에서도 동일한 스타일로 표시되도록 하는 설정<br>
+            - W3C 등에서 공식적으로 권장하는 것이라기 보다, 실무에서 필요에 의해 임의로 만든 설정<br>
+            - 스타일을 초기화시켜주는 다양한 기법이 있지만, 최근에는 normalize.css를 많이 사용함<br>
+            <a href="https://cdnis.com/ibraries/normalize" title="cdn을 통해 링크시킬수 있음">-cdn 을 통해서 링크시켜줄 수 있음</a><br>
+            - 기본 스타일은 남겨두고, 브라우저별로 다를 수 있는 스타일만 초기화<br>
+            <br>
+            <img src="image/4_reset_css.png" alt="CSS파일링크하기" width="400">
+        </p>
+    </div>
+    </main>
+    <footer>
+        <a href="https://tylog.tistory.com" title="태연로그-티스토리">
+            <img src="image/태연로그냥_원본.png" alt="위의 이미지를 누르면 태연로그 티스토리로 이동합니다." width="100">
+    </footer>
+</body>
+</html>
